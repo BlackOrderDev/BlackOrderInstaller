@@ -66,7 +66,7 @@ async def botlog (String, Api, Hash):
     ))
     KanalId = KanalId.chats[0].id
 
-    Photo = await Client.upload_file(file='SiriLogo.jpg')
+    Photo = await Client.upload_file(file='logo.jpg')
     await Client(EditPhotoRequest(channel=KanalId, 
         photo=Photo))
     msg = await Client.send_message(KanalId, LANG['DONT_LEAVE'])
@@ -125,8 +125,8 @@ if __name__ == "__main__":
     config['CLEAN_WELCOME'] = "True"
     config['CONSOLE_LOGGER_VERBOSE'] = "False"
     config['COUNTRY'] = COUNTRY
-    config['DEFAULT_BIO'] = "✨ @SiriUserBot Kulanıyorum✨"
-    config['DEFAULT_NAME'] = "Sir"
+    config['DEFAULT_BIO'] = "✨ @BlackOrderUserBot Kulanıyorum✨"
+    config['DEFAULT_NAME'] = "By Order"
     config['GALERI_SURE'] = "60"
     config['CHROME_DRIVER'] = "/usr/sbin/chromedriver"
     config['GOOGLE_CHROME_BIN'] = "/usr/sbin/chromium"
@@ -141,7 +141,7 @@ if __name__ == "__main__":
     config['TMP_DOWNLOAD_DIRECTORY'] = "./downloads/"
     config['TZ'] = TZ
     config['TZ_NUMBER'] = "1"
-    config['UPSTREAM_REPO_URL'] = "https://github.com/ErdemBey1/SiriUserBot"
+    config['UPSTREAM_REPO_URL'] = "https://github.com/BlackOrderUserBot/BlackOrderUserBot"
     config['WARN_LIMIT'] = "5"
     config['WARN_MODE'] = "gmute"
     config['LANGUAGE'] = LANGUAGE

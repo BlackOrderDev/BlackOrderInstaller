@@ -56,7 +56,7 @@ echo -e $BOSLUK
 echo "⌛ SİRİYİ İNDİRİYORUM ⌛"
 echo "⌛ I DOWNLOAD THE SIRI ⌛"
 echo -e $BOSLUK
-git clone -b installer https://github.com/BlackOrderUserBot/BlackOrderUserBot
+git clone -b installer https://github.com/BlackOrderDev/BlackOrderInstaller
 clear
 echo -e $SIRI
 echo -e $BOSLUK
@@ -65,7 +65,7 @@ echo -e $BOSLUK
 echo "⌛ GEREKSİNİMLERİ KURUYORUM..."
 echo "⌛ INSTALLING REQUIREMENTS..."
 echo -e $BOSLUK
-cd BlackOrderUserBot
+cd BlackOrderInstaller
 pip install wheel
 pip install -r requirements.txt
 python -m installer

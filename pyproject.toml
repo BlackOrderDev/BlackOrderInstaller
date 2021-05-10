@@ -1,0 +1,14 @@
+[tool]
+[tool.poetry]
+name = "BlackOrderUserbot_Deployer"
+version = "1.0"
+description = "Automatic Deploy BlackOrderUserBot to Heroku"
+authors = ["İxelizm <theblackorder@mail.com.tr>"]
+[tool.poetry.dependencies]
+python = "^3.8"
+bs4 = "*"
+gitpython = "*"
+heroku3 = "*"
+requests = "*"
+rich = "*"
+telethon = "*"
